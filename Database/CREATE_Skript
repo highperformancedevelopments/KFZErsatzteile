@@ -1,0 +1,34 @@
+CREATE DATABASE test;
+use test;
+CREATE TABLE teile (
+    TeileID INT NOT NULL,
+    Name VARCHAR(30),
+    ArtikelID INT,
+    Artikelnummer VARCHAR(25),
+    HerstellerID INT,
+    Beschreibung TEXT,
+    Gewicht DOUBLE,
+    PRIMARY KEY(TeileID)
+    );
+CREATE TABLE Hersteller(
+    HerstellerID INT NOT NULL,
+    Name VARCHAR(30),
+    PRIMARY KEY(HerstellerID)
+    );
+CREATE TABLE Artikel(
+    ArtikelID INT NOT NULL,
+    Name VARCHAR(30),
+    PRIMARY KEY(ArtikelID)
+    );
+CREATE TABLE Fahrzeug(
+    FahrzeugID INT NOT NULL,
+    Name VARCHAR(30),
+    hsn VARCHAR(20),
+    tsn VARCHAR(20),
+    HerstellerID INT,
+    PRIMARY KEY(FahrzeugID)
+    );
+CREATE TABLE TeilezuFahrzeugen(
+    TeileID INT NOT NULL,
+    FahrzeugID INT NOT NULL
+);
