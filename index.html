@@ -1,66 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- META -->
-	<title>KFZ-Ersatzteile</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta name="description" content="" />
+    <!-- META -->
+    <title>KFZ-Ersatzteile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
 
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all"/>
 
-	<!-- Javascript -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/kickstart.js"></script>
+    <!-- Javascript -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/kickstart.js"></script>
 </head>
 <body>
 
 <div class="col_12">
-	<h1>KFZ-Ersatzteile</h1>
-	<!-- Menu Horizontal -->
-	<ul class="menu">
-	<li class="current"><a href="">Alle Teile</a></li>
-	<li><a href="by_vehicle.html">Nach Fahrzeug</a></li>
-	<li><a href="">Nach Kategorie</a>
-		<ul>
-			<li><a href="">Elektrik</a></li>
-			<li><a href="">Antrieb</a></li>
-			<li><a href="">Fahrwerk</a>
-		<ul>
-			<li><a href="">Federn</a>
-			<li><a href="">Stoßdämpfer</a>
-			<li><a href="">Bremsen</a></li>
-		</ul>
-		</ul>
-	</li>
-	<li><a href="">Verwaltung</a>
-		<ul>
-			<li><a href="add_article.html">Artikel hinzufügen</a></li>
-			<li><a href="">Artikel bearbeiten</a></li>
-			<li><a href="">Artikel löschen</a>
-		</ul>
-	</ul>
+    <h1>KFZ-Ersatzteile</h1>
+    <!-- Menu Horizontal -->
+    <ul class="menu">
+        <li class="current"><a href="">Alle Teile</a></li>
+        <li><a href="by_vehicle.html">Nach Fahrzeug</a></li>
+        <li><a href="">Verwaltung</a>
+            <ul>
+                <li><a href="add_article.html">Artikel hinzufügen</a></li>
+                <li><a href="">Artikel bearbeiten</a></li>
+                <li><a href="">Artikel löschen</a>
+            </ul>
+    </ul>
 </div>
 
 </div>
 <div class="col_10">
-    <table class="striped">
-        <thead><tr>
+    <table class="striped sortable">
+        <thead>
+        <tr>
             <th>Artikelnummer</th>
             <th>Bezeichnung</th>
             <th>Kategorie</th>
             <th>Vergleichsnummer Hersteller</th>
             <th>Beschreibung</th>
-        </tr></thead>
-        <tbody><tr>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
             <td class="tooltip" data-content="#tooltipcontentID">Test</td>
             <td>Test</td>
             <td>Test</td>
             <td>Test</td>
             <td>Test</td>
-        </tr></tbody>
+        </tr>
+        </tbody>
         <tr>
             <td>Test</td>
             <td>Test</td>
@@ -73,7 +65,7 @@
 
 <!-- Tooltip Content -->
 <div class="tooltip-content" id="tooltipcontentID"><h5>HTML Content</h5>
-    <img src="http://placehold.it/180x150/4D99E0/ffffff.png&text=180x150" width="180" height="150" />
+    <img src="http://placehold.it/180x150/4D99E0/ffffff.png&text=180x150" width="180" height="150"/>
     <p>This is more HTML content. You can place any HTML in this tooltip.</p></div>
 
 </body>
