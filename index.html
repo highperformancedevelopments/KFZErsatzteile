@@ -22,7 +22,7 @@
 	<!-- Menu Horizontal -->
 	<ul class="menu">
 	<li class="current"><a href="">Alle Teile</a></li>
-	<li><a href="">Nach Fahrzeug</a></li>
+	<li><a href="by_vehicle.html">Nach Fahrzeug</a></li>
 	<li><a href="">Nach Kategorie</a>
 		<ul>
 			<li><a href="">Elektrik</a></li>
@@ -55,7 +55,7 @@
             <th>Beschreibung</th>
         </tr></thead>
         <tbody><tr>
-            <td>Test</td>
+            <td class="tooltip" data-content="#tooltipcontentID">Test</td>
             <td>Test</td>
             <td>Test</td>
             <td>Test</td>
@@ -70,6 +70,11 @@
         </tr>
     </table>
 </div>
+
+<!-- Tooltip Content -->
+<div class="tooltip-content" id="tooltipcontentID"><h5>HTML Content</h5>
+    <img src="http://placehold.it/180x150/4D99E0/ffffff.png&text=180x150" width="180" height="150" />
+    <p>This is more HTML content. You can place any HTML in this tooltip.</p></div>
 
 </body>
 </html>
