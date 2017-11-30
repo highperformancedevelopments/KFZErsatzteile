@@ -1,7 +1,0 @@
----
-applications:
-- name: KFZErsatzteile
-  memory: 256M
-  host: KFZErsatzteile
-  domain: eu-de.mybluemix.net
-
