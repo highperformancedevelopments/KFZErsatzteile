@@ -33,34 +33,35 @@
 
 <div class="col_4">
     <h3>Artikel hinzufügen</h3>
-
-</div>
-
-<div class="col_11">
-
 </div>
 
 </div>
-<div class="col_10">col_10</div>
-<div class="col_3">col_3</div>
-<div class="col_9">col_9</div>
-<div class="col_4">col_4</div>
-<div class="col_8">col_8</div>
-<div class="col_5">col_5</div>
-<div class="col_7">col_7</div>
-<div class="col_6">col_6</div>
-<div class="col_6">col_6</div>
-<div class="col_7">col_7</div>
-<div class="col_5">col_5</div>
-<div class="col_8">col_8</div>
-<div class="col_4">col_4</div>
-<div class="col_9">col_9</div>
-<div class="col_3">col_3</div>
-<div class="col_10">col_10</div>
-<div class="col_2">col_2</div>
-<div class="col_11">col_11</div>
-<div class="col_1">col_1</div>
-<div class="col_12">col_12</div>
+<div class="col_10">
+    <form>
+        <fieldset>
+            <legend>Artikelgrunddaten:</legend>
+            Interne Artikelnummer:<br>
+            <input type="text" name="Artikelnummer_Intern"><br>
+            Vergleichsnummer Hersteller:<br>
+            <input type="text" name="Herstellernummer"><br>
+            Bezeichnung:<br>
+            <input type="text" name="Bezeichnung"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Artikelkategorie:</legend>
+            Artikelkategorie:<br>
+            <input type="radio" name="Antrieb" value="Antrieb" checked> Antrieb<br>
+            <input type="radio" name="Zubehör" value="Zubehör"> Zubehör<br>
+            <input type="radio" name="Sonstige" value="Sonstige"> Sonstige
+        </fieldset>
+
+        Artikelbeschreibung<br>
+        <input type="text" name="Beschreibung" maxlength="200" size="171"><br>
+
+        <br><input type="submit" value=" Artikel anlegen">
+
+    </form>
+</div>
 
 
 </body>
